@@ -40,14 +40,14 @@ var env = {
 	dev: {
 		user: 'www-data',
 		host: 'guroot.nine.ch',
-		path: '/home/www-data/www/dev.getunik.net/getu-camp/',
+		path: '/home/www-data/www/dev.getunik.net/bleedhd-camp/',
 	},
-	prod: {
-		user: 'www-data',
-		host: 'gushare01.nine.ch',
-		path: '/home/www-data/www/demo-one.getunik.com/',
-		prompt: true,
-	},
+//	prod: {
+//		user: 'www-data',
+//		host: 'gushare01.nine.ch',
+//		path: '/home/www-data/www/demo-one.getunik.com/',
+//		prompt: true,
+//	},
 };
 
 /*
