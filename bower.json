@@ -1,0 +1,35 @@
+{
+  "name": "getunikcampaigntemplate",
+  "version": "1.0.0",
+  "private": true,
+  "authors": [
+    "getunik ag <dev@getunik.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jquery": "~1",
+    "jquery.easing": "~1",
+    "bootstrap": "~4",
+    "svg-injector": "~1",
+    "anzeixer": "~2",
+    "getunik-preprocessor-mixins": "git@bitbucket.org:getunik/getunikpreprocessormixins.git#v-2.1.0",
+    "font-awesome": "~4",
+    "slick-carousel": "~1",
+    "promise-polyfill": "~5",
+    "eventEmitter": "~4",
+    "matchHeight": "matchheight#^0.7.0",
+     "selectize": "^0.12.4"
+  }
+}

@@ -1,0 +1,13 @@
+title: Default page
+pages: true
+files:
+  fields:
+    responsive: responsive
+fields:
+  Page Meta Data:
+    label: Page Meta Data
+    type: headline
+
+  title:
+    label: Page Title
+    type:  text

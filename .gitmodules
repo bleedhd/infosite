@@ -1,0 +1,26 @@
+[submodule "kirby/kirby"]
+	path = kirby/kirby
+	url = https://github.com/getkirby/kirby.git
+[submodule "kirby/panel"]
+	path = kirby/panel
+	url = https://github.com/getkirby/panel.git
+[submodule "kirby/site/plugins/getutils"]
+	path = kirby/site/plugins/getutils
+	url = git@bitbucket.org:getunik/kirby-utilities.git
+[submodule "kirby/site/plugins/field-selector"]
+	path = kirby/site/plugins/field-selector
+	url = git@github.com:lord-executor/kirby-selector.git
+[submodule "kirby/site/plugins/constructs"]
+	path = kirby/site/plugins/constructs
+	url = https://github.com/lord-executor/kirby-constructs.git
+	branch = v-1.0.0-rc1
+[submodule "kirby/site/constructs/campaign"]
+	path = kirby/site/constructs/campaign
+	url = git@bitbucket.org:getunik/getunikcampaigntemplateconstructs.git
+[submodule "kirby/site/plugins/jsonapi"]
+	path = kirby/site/plugins/jsonapi
+	url = git@github.com:lord-executor/kirby-json-api.git
+[submodule "kirby/site/plugins/file-language-workaround"]
+	path = kirby/site/plugins/file-language-workaround
+	url = git@bitbucket.org:getunik/kirby-plugin-file-language-workaround.git
+	branch = master

@@ -1,0 +1,36 @@
+@import "_bootstrap_vars.scss";
+
+@import "_variables.scss";
+
+@import "__constructs-helpers";
+
+// Import Bootstrap 4
+@import "../../bower_components/bootstrap/scss/bootstrap.scss";
+
+// Import Getunik Preprocessor Mixins
+@import "../../bower_components/getunik-preprocessor-mixins/_getunik_mixins.scss";
+
+// Import Slick Carousel Styles
+@import "../../bower_components/slick-carousel/slick/slick.scss";
+
+// Import Font awesome
+@import "../../bower_components/font-awesome/scss/font-awesome.scss";
+
+// Import Selectize.js Replacement Styles
+@import "../../bower_components/selectize/dist/css/selectize.bootstrap3.css";
+
+@import "_webfonts.scss";
+
+
+////////////////////////
+// Constructs base layer
+// (generated files)
+
+@import "__constructs-base";
+@import "__components";
+
+
+//////////////////////
+// Customization Layer
+
+@import "_common.scss";

@@ -1,0 +1,143 @@
+// Colors
+$color-1: #000;
+$color-2: #fff;
+$color-3: #4CA824;
+$color-4: #777876;
+$color-5: #eaeaea;
+$color-6: #f1f1f1;
+
+// Background colors
+.bg-color-1 {
+	background-color: $color-1;
+}
+.bg-color-2 {
+	background-color: $color-2;
+}
+.bg-color-3 {
+	background-color: $color-3;
+}
+.bg-color-4 {
+	background-color: $color-4;
+}
+.bg-color-5 {
+	background-color: $color-5;
+}
+.bg-color-6 {
+	background-color: $color-6;
+}
+
+// Foreground colors
+.fg-color-1 {
+	color: $color-1;
+}
+.fg-color-2 {
+	color: $color-2;
+}
+
+// Image paths
+$img-path-default: '../images/';
+$img-path-black: '../images/black/';
+$img-path-white: '../images/white/';
+$img-path-brand: '../images/brand/';
+
+$img-path-arrow-left: url('#{$img-path-default}camp-arrow-left.svg');
+$img-path-arrow-right: url('#{$img-path-default}camp-arrow-right.svg');
+
+// Transitions
+$default-transition: all 0.1s ease-in-out 0s;
+$default-transition-slow: all 0.3s ease-in-out;
+
+// Contact page
+$img-path-radio-unchecked: url('#{$img-path-default}radio-unchecked.svg');
+$img-path-radio-checked: url('#{$img-path-default}radio-checked.svg');
+$img-path-checkbox-unchecked: url('#{$img-path-default}checkbox-unchecked.svg');
+$img-path-checkbox-checked: url('#{$img-path-default}checkbox-checked.svg');
+
+// Buttons
+$btn-bg-color: $color-3;
+$btn-border-color: $color-3;
+$btn-bg-hover-color: darken( $color-3, 5% );
+$btn-border-hover-color: darken( $color-3, 5% );
+$btn-border-radius: 0;
+
+// Section spacings
+$section-padding-top-xs: 40px;
+$section-padding-bottom-xs: 40px;
+$section-padding-top: 70px;
+$section-padding-bottom: 70px;
+
+// Accordion
+$accordion-border-color: #e0e0e0;
+$accordion-margin-top-xs: 2rem;
+$accordion-margin-bottom-xs: 2rem;
+$accordion-margin-top: 4rem;
+$accordion-margin-bottom: 4rem;
+$img-path-minus: url('#{$img-path-default}camp-minus.svg');
+$img-path-plus: url('#{$img-path-default}camp-plus.svg');
+
+// Amount selector
+$amountselector-height: 796px;
+$amount-sel-box-bg-xs: #fff;
+$amount-sel-box-bg-sm: #fff;
+$amount-sel-box-bg-md: #fff;
+$amount-sel-box-bg-lg: #fff;
+$amount-sel-box-bg-xl: #fff;
+$img-path-box-4: url('#{$img-path-default}donation-box-4.svg');
+$img-path-box-2: url('#{$img-path-default}donation_box_2.svg');
+$img-path-amount-custom: url('#{$img-path-default}donation-box-amount-custom.svg');
+$img-path-close: url('#{$img-path-default}donation-box-custom-close.svg');
+
+// Bullet points
+$img-path-bullet: url('#{$img-path-default}camp-bullet-point.svg');
+
+// Documents
+$docteaserbox-bg-color: #fff;
+$docteaserbox-fg-color: #000;
+$docteaserbox-icon-bg-color: #f1f1f1;
+$img-path-doc-icon: url('#{$img-path-default}camp-doc-icon.svg');
+
+// Documents page
+$img-path-arrow-down: url('#{$img-path-default}camp-arrow-down.svg');
+
+// Donation samples
+$donationsamples-border-color: #e0e0e0;
+
+// Jumbotron
+$jumbotron-height: 796px;
+$catchphrase-width-xs: 100px;
+$catchphrase-height-xs: 100px;
+$catchphrase-width: 223px;
+$catchphrase-height: 223px;
+
+// Parallax
+$parallax-height: 796px;
+
+// Quote
+$quote-function-fg-color: #999;
+
+// Slider
+$slider-height: 796px;
+$slider-img-path-left-mobile: url('#{$img-path-default}camp-slider-left-mobile.svg');
+$slider-img-path-right-mobile: url('#{$img-path-default}camp-slider-right-mobile.svg');
+$slider-img-path-dot-active-mobile: url('#{$img-path-default}camp-slider-dot-active-mobile.svg');
+$slider-img-path-dot-mobile: url('#{$img-path-default}camp-slider-dot-mobile.svg');
+$slider-img-path-dot-active: url('#{$img-path-default}camp-slider-dot-active.svg');
+$slider-img-path-dot: url('#{$img-path-default}camp-slider-dot.svg');
+$slider-img-path-left: url('#{$img-path-default}camp-slider-left.svg');
+$slider-img-path-right: url('#{$img-path-default}camp-slider-right.svg');
+
+// Floating footer
+$floatingfooter-bg-color: #fff;
+
+// Prefooter
+$prefooter-bg-color: $color-1;
+
+// Footer
+$footer-bg-color: $color-1;
+$footer-fg-color: #fff;
+$footer-hr-color: rgba(255,255,255, 0.3);
+$img-path-facebook: url('#{$img-path-default}camp-facebook.svg');
+$img-path-twitter: url('#{$img-path-default}camp-twitter.svg');
+$img-path-youtube: url('#{$img-path-default}camp-youtube.svg');
+$img-path-instagram: url('#{$img-path-default}camp-instagram.svg');
+$img-path-gplus: url('#{$img-path-default}camp-gplus.svg');

@@ -1,0 +1,118 @@
+title: Site
+pages: true
+pages:
+  template:
+    - page.campaign
+    - page.contact
+    - page.content
+    - style-guide
+files:
+  fields:
+    responsive: responsive
+fields:
+  generalSiteInfo:
+    label: Gereral site information
+    type: headline
+  title:
+    label: Site title
+    type:  text
+  author:
+    label: Author
+    type:  text
+  defaultLandingpage :
+    label: Default landingpage
+    type:  page
+
+  Top bar:
+    label: Top bar
+    type: headline
+  brandImage:
+    label: Brand image
+    type:  image
+  brandImageMobile:
+    label: Brand image (mobile)
+    type:  image
+  externalLinkText:
+    label: External link text
+    type:  text
+  externalLinkUrl:
+    label: External link url
+    type:  text
+
+  googleSettings :
+    label: Google Settings
+    type:  headline
+  gtmId :
+    label: Google Tag Manager ID
+    type: text
+
+  additionalSettings:
+    label: Additional settings
+    type: headline
+  contactPage:
+    label: Contact Page
+    type: page
+  facebookAppId:
+    label: Facebook App Id
+    type: text
+  footer:
+    label: Footer Elements
+    type: headline
+  socialIcons:
+    label: Social Media Icons
+    type: structure
+    entry: >
+      {{platform}} {{linkurl}}
+    fields:
+      platform:
+        label: Social Media Platform
+        required: yes;
+        type: select
+        options:
+          facebook: Facebook
+          twitter: Twitter
+          youtube: Youtube
+          instagram: Instagram
+          gplus: Google+
+      linkUrl:
+        label: Link URL
+        type: url
+        required: yes
+  leftColumn:
+    label: Left column (content)
+    type: textarea
+    buttons: yes
+  centerColumn:
+    label: Center column (content)
+    type: textarea
+    buttons: yes
+  rightColumn:
+    label: Right column (link list)
+    type: structure
+    entry: >
+      {{linklabel}}<br />
+      {{linkurlinternal}}<br />
+      {{linkurlexternal}}
+    fields:
+      linkLabel:
+        label: Link Text
+        type: text
+        required: yes
+      linkUrlInternal:
+        label: Link URL (Internal)
+        type: page
+      linkUrlExternal:
+        label: Link URL (External)
+        type: url
+  copyright:
+    label: Copyright
+    type:  text
+  footerBrandImage:
+    label: Footer brand image
+    type:  image
+  footerBrandImageMobile:
+    label: Footer brand image (mobile)
+    type:  image
+  footerBrandLinkUrl:
+    label: Footer brand Link URL (External)
+    type: url

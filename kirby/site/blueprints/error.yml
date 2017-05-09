@@ -1,0 +1,31 @@
+title: Error page
+pages: true
+icon: cogs
+fields:
+  Page Meta Data:
+    label: Page Meta Data
+    type: headline
+  indexable:
+    label: Search results
+    type: checkbox
+    text: Include this page in search results
+    default: 1
+
+  title:
+    label: Navigation title
+    type:  text
+
+
+  Main content:
+    label: Main content
+    type: headline
+  mainTitle:
+    label: Main title
+    type:  text
+  lead:
+    label: Lead
+    type:  textarea
+    buttons: false
+  text:
+    label: Text
+    type:  textarea

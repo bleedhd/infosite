@@ -1,0 +1,11 @@
+title: Configuration Entity
+icon: cogs
+pages:
+  template:
+    - configuration
+files: false
+hide: false
+options:
+  preview: false
+  status: false
+fields:

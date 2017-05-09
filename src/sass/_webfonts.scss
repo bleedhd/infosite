@@ -1,0 +1,73 @@
+// Google Fonts
+
+// Merriweather Regular 400
+// Merriweather Bold 700
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+// Open Sans Regular 400
+// Open Sans Semibold 600
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+// Fonts
+$font-merriweather: 'Merriweather', serif;
+$font-opensans: 'Open Sans', sans-serif;
+
+// Fonts
+$font-a: $font-merriweather;
+$font-b: $font-opensans;
+
+$font-path: '../fonts/';
+
+// Custom fonts (with font files)
+
+//@font-face {
+//	@include custom-font('ScalaRegular', '318210_1_0', 400);
+//}
+//
+//@font-face {
+//	@include custom-font('ScalaBold', '318210_0_0', 700);
+//}
+
+body {
+	font-family: $font-b;
+}
+
+html {
+	font-size: 15px;
+}
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+
+	html {
+		font-size: 16px;
+	}
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+	html {
+		font-size: 17px;
+	}
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+	html {
+		font-size: 18px;
+	}
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+	html {
+		font-size: 20px;
+	}
+
+}
