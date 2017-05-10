@@ -40,18 +40,18 @@ $img-path-black: '../images/black/';
 $img-path-white: '../images/white/';
 $img-path-brand: '../images/brand/';
 
-$img-path-arrow-left: url('#{$img-path-default}camp-arrow-left.svg');
-$img-path-arrow-right: url('#{$img-path-default}camp-arrow-right.svg');
+$img-path-arrow-left: url('#{$img-path-brand}camp-arrow-left.svg');
+$img-path-arrow-right: url('#{$img-path-brand}camp-arrow-right.svg');
 
 // Transitions
 $default-transition: all 0.1s ease-in-out 0s;
 $default-transition-slow: all 0.3s ease-in-out;
 
 // Contact page
-$img-path-radio-unchecked: url('#{$img-path-default}radio-unchecked.svg');
-$img-path-radio-checked: url('#{$img-path-default}radio-checked.svg');
-$img-path-checkbox-unchecked: url('#{$img-path-default}checkbox-unchecked.svg');
-$img-path-checkbox-checked: url('#{$img-path-default}checkbox-checked.svg');
+$img-path-radio-unchecked: url('#{$img-path-brand}radio-unchecked.svg');
+$img-path-radio-checked: url('#{$img-path-brand}radio-checked.svg');
+$img-path-checkbox-unchecked: url('#{$img-path-brand}checkbox-unchecked.svg');
+$img-path-checkbox-checked: url('#{$img-path-brand}checkbox-checked.svg');
 
 // Buttons
 $btn-bg-color: $color-3;
@@ -72,8 +72,8 @@ $accordion-margin-top-xs: 2rem;
 $accordion-margin-bottom-xs: 2rem;
 $accordion-margin-top: 4rem;
 $accordion-margin-bottom: 4rem;
-$img-path-minus: url('#{$img-path-default}camp-minus.svg');
-$img-path-plus: url('#{$img-path-default}camp-plus.svg');
+$img-path-minus: url('#{$img-path-brand}camp-minus.svg');
+$img-path-plus: url('#{$img-path-brand}camp-plus.svg');
 
 // Amount selector
 $amountselector-height: 796px;
@@ -82,22 +82,22 @@ $amount-sel-box-bg-sm: #fff;
 $amount-sel-box-bg-md: #fff;
 $amount-sel-box-bg-lg: #fff;
 $amount-sel-box-bg-xl: #fff;
-$img-path-box-4: url('#{$img-path-default}donation-box-4.svg');
-$img-path-box-2: url('#{$img-path-default}donation_box_2.svg');
-$img-path-amount-custom: url('#{$img-path-default}donation-box-amount-custom.svg');
-$img-path-close: url('#{$img-path-default}donation-box-custom-close.svg');
+$img-path-box-4: url('#{$img-path-brand}donation-box-4.svg');
+$img-path-box-2: url('#{$img-path-brand}donation_box_2.svg');
+$img-path-amount-custom: url('#{$img-path-brand}donation-box-amount-custom.svg');
+$img-path-close: url('#{$img-path-brand}donation-box-custom-close.svg');
 
 // Bullet points
-$img-path-bullet: url('#{$img-path-default}camp-bullet-point.svg');
+$img-path-bullet: url('#{$img-path-brand}camp-bullet-point.svg');
 
 // Documents
 $docteaserbox-bg-color: #fff;
 $docteaserbox-fg-color: #000;
 $docteaserbox-icon-bg-color: #f1f1f1;
-$img-path-doc-icon: url('#{$img-path-default}camp-doc-icon.svg');
+$img-path-doc-icon: url('#{$img-path-brand}camp-doc-icon.svg');
 
 // Documents page
-$img-path-arrow-down: url('#{$img-path-default}camp-arrow-down.svg');
+$img-path-arrow-down: url('#{$img-path-brand}camp-arrow-down.svg');
 
 // Donation samples
 $donationsamples-border-color: #e0e0e0;
@@ -117,14 +117,14 @@ $quote-function-fg-color: #999;
 
 // Slider
 $slider-height: 796px;
-$slider-img-path-left-mobile: url('#{$img-path-default}camp-slider-left-mobile.svg');
-$slider-img-path-right-mobile: url('#{$img-path-default}camp-slider-right-mobile.svg');
-$slider-img-path-dot-active-mobile: url('#{$img-path-default}camp-slider-dot-active-mobile.svg');
-$slider-img-path-dot-mobile: url('#{$img-path-default}camp-slider-dot-mobile.svg');
-$slider-img-path-dot-active: url('#{$img-path-default}camp-slider-dot-active.svg');
-$slider-img-path-dot: url('#{$img-path-default}camp-slider-dot.svg');
-$slider-img-path-left: url('#{$img-path-default}camp-slider-left.svg');
-$slider-img-path-right: url('#{$img-path-default}camp-slider-right.svg');
+$slider-img-path-left-mobile: url('#{$img-path-brand}camp-slider-left-mobile.svg');
+$slider-img-path-right-mobile: url('#{$img-path-brand}camp-slider-right-mobile.svg');
+$slider-img-path-dot-active-mobile: url('#{$img-path-brand}camp-slider-dot-active-mobile.svg');
+$slider-img-path-dot-mobile: url('#{$img-path-brand}camp-slider-dot-mobile.svg');
+$slider-img-path-dot-active: url('#{$img-path-brand}camp-slider-dot-active.svg');
+$slider-img-path-dot: url('#{$img-path-brand}camp-slider-dot.svg');
+$slider-img-path-left: url('#{$img-path-brand}camp-slider-left.svg');
+$slider-img-path-right: url('#{$img-path-brand}camp-slider-right.svg');
 
 // Floating footer
 $floatingfooter-bg-color: #fff;
@@ -136,8 +136,8 @@ $prefooter-bg-color: $color-3;
 $footer-bg-color: $color-3;
 $footer-fg-color: #fff;
 $footer-hr-color: rgba(255,255,255, 0.3);
-$img-path-facebook: url('#{$img-path-default}camp-facebook.svg');
-$img-path-twitter: url('#{$img-path-default}camp-twitter.svg');
-$img-path-youtube: url('#{$img-path-default}camp-youtube.svg');
-$img-path-instagram: url('#{$img-path-default}camp-instagram.svg');
-$img-path-gplus: url('#{$img-path-default}camp-gplus.svg');
+$img-path-facebook: url('#{$img-path-brand}camp-facebook.svg');
+$img-path-twitter: url('#{$img-path-brand}camp-twitter.svg');
+$img-path-youtube: url('#{$img-path-brand}camp-youtube.svg');
+$img-path-instagram: url('#{$img-path-brand}camp-instagram.svg');
+$img-path-gplus: url('#{$img-path-brand}camp-gplus.svg');

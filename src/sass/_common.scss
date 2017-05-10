@@ -201,6 +201,8 @@ h4 {
 
 }
 
+// Custom Styles
+
 .navbar-brand {
 
 	img {
@@ -208,6 +210,46 @@ h4 {
 		height: 39px;
 	}
 }
+
+section.section-jumbotron {
+
+	.btn.btn-primary {
+		@extend .btn-inverted;
+	}
+
+}
+
+// section.section-jumbotron {
+
+// 	.btn.btn-primary {
+// 		color: $color-3;
+// 		background-color: $color-2;
+// 		border-color: $color-2;
+// 		border-radius: $btn-border-radius;
+
+// 		&:active,
+// 		&:visited,
+// 		&:focus,
+// 		&:hover {
+// 			background-color: $btn-bg-hover-color;
+// 			border-color: $btn-border-hover-color;
+// 		}
+
+// 		&.btn-inverted {
+// 			color: $color-3;
+// 			border: 3px solid $color-2;
+// 			background-color: $color-2;
+// 			border-radius: 0;
+
+// 			&:hover {
+// 				color: $color-2;
+// 				border: 3px solid $color-2;
+// 				background-color: transparent;
+// 			}
+// 		}
+// 	}
+
+// }
 
 // Small devices (landscape phones, 544px and up)
 @include media-breakpoint-up(sm) {
@@ -394,6 +436,13 @@ h4 {
 			width: 244px;
 			height: 80px;
 		}
+	}
+
+	// Custom Styles
+	.top-navi nav ul.top-navi-menu li a {
+		color: $color-3;
+		font-size: 1rem;
+		font-weight: normal;
 	}
 
 }
