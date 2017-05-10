@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow Left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Landingpage" transform="translate(-40.000000, -2014.000000)">
+            <g id="Group-2-Copy" transform="translate(71.000000, 2045.000000) rotate(-180.000000) translate(-71.000000, -2045.000000) translate(41.000000, 2015.000000)">
+                <g id="Oval-5">
+                    <ellipse stroke="#FFFFFF" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" cx="30" cy="30" rx="30" ry="30"></ellipse>
+                    <polyline id="Arrow-Next" stroke="#AB2430" stroke-width="3" stroke-linecap="round" transform="translate(33.500000, 28.898427) rotate(-270.000000) translate(-33.500000, -28.898427) " points="20.6015733 35.3984267 33.5 22.3984267 46.3984267 35.3984267"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
