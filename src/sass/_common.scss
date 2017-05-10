@@ -72,15 +72,15 @@ hr {
 	}
 
 	&.btn-inverted {
-		color: $color-1;
+		color: $color-3;
 		border: 3px solid $color-2;
 		background-color: $color-2;
-		border-radius: 30px;
+		border-radius: 0;
 
 		&:hover {
 			color: $color-2;
 			border: 3px solid $color-2;
-			background-color: $color-1;
+			background-color: transparent;
 		}
 	}
 }
@@ -98,6 +98,7 @@ h1 {
 
 // Section Title
 h2 {
+	color: $color-3;
 	font-family: $font-b;
 	text-align: center;
 
@@ -110,12 +111,13 @@ h2 {
 		content: " ";
 		width: 60px;
 		height: 2px;
-		background-color: #000;
+		background-color: $color-3;
 	}
 }
 
 // Section Headline
 h3 {
+	color: $color-3;
 	font-family: $font-a;
 	line-height: 1.9rem;
 	margin-bottom: 16px;
@@ -197,6 +199,14 @@ h4 {
 		margin-bottom: 1rem;
 	}
 
+}
+
+.navbar-brand {
+
+	img {
+		width: 120px;
+		height: 39px;
+	}
 }
 
 // Small devices (landscape phones, 544px and up)
@@ -284,6 +294,7 @@ h4 {
 			}
 		}
 	}
+
 
 }
 
@@ -374,6 +385,14 @@ h4 {
 			.bullet-points li {
 				color: $color-2;
 			}
+		}
+	}
+
+	.navbar-brand {
+
+		img {
+			width: 244px;
+			height: 80px;
 		}
 	}
 
