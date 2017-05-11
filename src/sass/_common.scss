@@ -90,6 +90,7 @@ hr {
 }
 
 h1 {
+	color: $color-3;
 	font-family: $font-a;
 	font-weight: 600;
 	line-height: 1.9rem;
@@ -213,43 +214,25 @@ h4 {
 
 section.section-jumbotron {
 
-	.btn.btn-primary {
-		@extend .btn-inverted;
+	.jumbotron-content-wrapper {
+
+		.jumbotron-content {
+
+			h1 {
+
+			}
+
+			.section-content {
+
+			}
+
+			.btn.btn-primary {
+				@extend .btn-inverted;
+			}
+		}
 	}
 
 }
-
-// section.section-jumbotron {
-
-// 	.btn.btn-primary {
-// 		color: $color-3;
-// 		background-color: $color-2;
-// 		border-color: $color-2;
-// 		border-radius: $btn-border-radius;
-
-// 		&:active,
-// 		&:visited,
-// 		&:focus,
-// 		&:hover {
-// 			background-color: $btn-bg-hover-color;
-// 			border-color: $btn-border-hover-color;
-// 		}
-
-// 		&.btn-inverted {
-// 			color: $color-3;
-// 			border: 3px solid $color-2;
-// 			background-color: $color-2;
-// 			border-radius: 0;
-
-// 			&:hover {
-// 				color: $color-2;
-// 				border: 3px solid $color-2;
-// 				background-color: transparent;
-// 			}
-// 		}
-// 	}
-
-// }
 
 // Small devices (landscape phones, 544px and up)
 @include media-breakpoint-up(sm) {
@@ -443,6 +426,28 @@ section.section-jumbotron {
 		color: $color-3;
 		font-size: 1rem;
 		font-weight: normal;
+	}
+
+	section.section-jumbotron {
+
+		.jumbotron-content-wrapper {
+
+			.jumbotron-content {
+
+				h1 {
+					color: $color-2;
+				}
+
+				.section-content {
+					color: $color-2;
+				}
+
+				.btn.btn-primary {
+					@extend .btn-inverted;
+				}
+			}
+		}
+
 	}
 
 }
