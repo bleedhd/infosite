@@ -54,6 +54,19 @@ hr {
 	border: 0;
 }
 
+@mixin btn-inverted {
+	color: $color-3;
+	border: 3px solid $color-2;
+	background-color: $color-2;
+	border-radius: 0;
+
+	&:hover {
+		color: $color-2;
+		border: 3px solid $color-2;
+		background-color: transparent;
+	}
+}
+
 .btn.btn-primary {
 	color: $color-2;
 	font-size: 16px;
@@ -72,16 +85,7 @@ hr {
 	}
 
 	&.btn-inverted {
-		color: $color-3;
-		border: 3px solid $color-2;
-		background-color: $color-2;
-		border-radius: 0;
-
-		&:hover {
-			color: $color-2;
-			border: 3px solid $color-2;
-			background-color: transparent;
-		}
+		@include btn-inverted;
 	}
 }
 
@@ -90,7 +94,6 @@ hr {
 }
 
 h1 {
-	color: $color-3;
 	font-family: $font-a;
 	font-weight: 600;
 	line-height: 1.9rem;
@@ -224,10 +227,6 @@ section.section-jumbotron {
 
 			.section-content {
 
-			}
-
-			.btn.btn-primary {
-				@extend .btn-inverted;
 			}
 		}
 	}
@@ -443,11 +442,10 @@ section.section-jumbotron {
 				}
 
 				.btn.btn-primary {
-					@extend .btn-inverted;
+					@include btn-inverted;
 				}
 			}
 		}
-
 	}
 
 }
