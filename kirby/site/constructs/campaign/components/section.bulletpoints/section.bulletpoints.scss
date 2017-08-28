@@ -1,0 +1,123 @@
+
+@include media-breakpoint-only(xs) {
+	.section-bulletpoints {
+		background-image: none !important;
+	}
+}
+@include media-breakpoint-only(sm) {
+	.section-bulletpoints {
+		background-image: none !important;
+	}
+}
+@include media-breakpoint-only(md) {
+	.section-bulletpoints {
+		background-image: none !important;
+	}
+}
+
+section.section-bulletpoints {
+	padding-top: 0;
+	padding-bottom: 0;
+
+	h3 {
+		color: $color-1;
+	}
+
+	img.img-fluid {
+		margin-bottom: 30px;
+	}
+
+	.bullet-points {
+		margin-top: 5px;
+		margin-bottom: 0;
+
+		li {
+			color: $color-4;
+			font-family: $font-a;
+			font-size: 1rem;
+			line-height: 1.8rem;
+			padding-left: 3rem;
+			padding-bottom: 1rem;
+			background-image: $img-path-bullet;
+			background-repeat: no-repeat;
+			background-size: 28px 28px;
+		}
+	}
+}
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+
+section.section-bulletpoints {
+	padding-top: 0;
+	padding-bottom: 0;
+
+	h3 {
+		color: $color-1;
+	}
+
+	img.img-fluid {
+		margin-bottom: 30px;
+	}
+
+	.bullet-points {
+		margin-top: 5px;
+		margin-bottom: 0;
+
+		li {
+			color: $color-4;
+			font-family: $font-a;
+			font-size: 1rem;
+			line-height: 1.8rem;
+			padding-left: 3rem;
+			padding-bottom: 1rem;
+			background-image: $img-path-bullet;
+			background-repeat: no-repeat;
+			background-size: 28px 28px;
+		}
+	}
+}
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+	section.section-bulletpoints {
+		padding-top: 2rem;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		// background-attachment: fixed;
+
+		.bullet-points {
+			margin-bottom: 2rem;
+
+			li {
+				color: $color-2;
+				font-size: 1rem;
+				line-height: 1.5rem;
+				padding-left: 2.25rem;
+				background-size: 1.4rem 1.4rem;
+			}
+		}
+	}
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+
+
+}

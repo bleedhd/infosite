@@ -1,0 +1,63 @@
+title: Videos Page
+pages: true
+files: true
+  fields:
+    responsive: responsive
+fields:
+
+  pageMetaData:
+    label: Page Meta Data
+    type: headline
+  indexable: indexable
+  title:
+    label: Navigation title
+    type:  text
+
+  Main content:
+    label: Main content
+    type: headline
+  mainTitle:
+    label: Title
+    type:  text
+  mainHeadline:
+    label: Lead
+    type:  textarea
+    buttons: false
+  mainContent:
+    label: Text
+    type:  textarea
+    buttons: true
+
+  Video overview:
+    label: Videos
+    type: headline
+  videoItems:
+    label: Video items
+    type: structure
+    style: table
+    fields:
+      videoEmbed:
+        label: Video Embed Code
+        type: text
+        buttons: false
+        required: true
+      videoAspectRatio:
+        label: Video aspect ratio
+        type: select
+        default: 16:9
+        options:
+          16by9: 16:9
+          4by3: 4:3
+      videoTitle:
+        label: Title
+        type: text
+      videoDescription:
+        label: Description
+        type:  textarea
+      layout:
+        label: Text position
+        type: select
+        required: true
+        options:
+          text-left: left
+          text-right: right

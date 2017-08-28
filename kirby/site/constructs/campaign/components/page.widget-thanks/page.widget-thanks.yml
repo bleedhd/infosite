@@ -1,0 +1,53 @@
+title: Widget Thanks Page
+pages: false
+icon: usd
+files: true
+  fields:
+    responsive: responsive
+fields:
+  pageMetaData:
+    label: Page Meta Data
+    type: headline
+  indexable: indexable
+  title:
+    label: Navigation title
+    type:  text
+
+  Main content:
+    label: Main content
+    type: headline
+  mainTitle:
+    label: Title
+    type:  text
+  mainHeadline:
+    label: Lead
+    type:  textarea
+    buttons: false
+  mainContent:
+    label: Text
+    type:  textarea
+    buttons: true
+  keyVisual:
+    label: Key visual
+    type: image
+    required: true
+
+  quoteHeadline:
+    label: Quote
+    type: headline
+  quote:
+    label: Quote
+    type: textarea
+  sectionImage:
+    label: Image
+    type: image
+    required: true
+    help: 128px x 128px
+  quoteAuthor:
+    label: Author
+    type: text
+    width: 1/2
+  quoteAuthorFunction:
+    label: Function
+    type: text
+    width: 1/2

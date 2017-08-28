@@ -1,0 +1,4 @@
+label: Navigation Title
+type: text
+help: Leave empty if section should not be shown in navigation.
+

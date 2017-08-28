@@ -1,0 +1,157 @@
+
+.section-donationsamples {
+
+	h3 {
+		text-align: center;
+	}
+
+	.section-content {
+		text-align: center;
+		font-family: $font-b;
+	}
+}
+
+.donation-sample {
+	margin-bottom: 30px;
+
+	.donation-sample-head {
+
+		img.img-fluid {
+			margin-bottom: 0;
+		}
+	}
+
+	.donation-sample-body {
+		padding-top: 20px;
+		border-left: 1px solid $donationsamples-border-color;
+		border-right: 1px solid $donationsamples-border-color;
+		border-bottom: 1px solid $donationsamples-border-color;
+
+		.donation-sample-amount-box {
+			@include clearfix;
+			text-align: center;
+			margin-bottom: 10px;
+
+			.donation-sample-amount-col {
+				font-weight: 600;
+				position: relative;
+				display: inline-block;
+
+				.donation-sample-currency {
+					position: absolute;
+					top: 8px;
+					left: -45px;
+					font-size: 16px;
+					line-height: 16px;
+					font-weight: 600;
+					vertical-align: top;
+				}
+
+				.donation-sample-amount {
+					font-weight: 600;
+					font-size: 60px;
+					line-height: 60px;
+				}
+
+				.donation-sample-interval {
+					font-size: 16px;
+					line-height: 16px;
+				}
+			}
+		}
+
+		.donation-sample-text {
+			color: $color-4;
+			text-align: center;
+			font-size: 0.9rem;
+			line-height: 1.4rem;
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-bottom: 24px;
+		}
+
+		.donation-sample-button-wrapper {
+			text-align: center;
+
+			.btn {
+				margin-bottom: 30px;
+				display: inline-block;
+			}
+		}
+	}
+
+	.donation-custom {
+
+		.custom-amount-title {
+			text-align: center;
+			font-family: $font-a;
+			font-size: 1.1rem;
+			line-height: 2.9rem;
+			font-weight: 600;
+		}
+
+		.amount-col {
+			position: relative;
+			margin: 0 auto;
+			width: 80%;
+
+			.donation-currency {
+				position: absolute;
+				top: 2px;
+				left: 15px;
+				font-size: 0.9rem;
+				line-height: 2.0rem;
+			}
+
+			input.donation-amount {
+				display: block;
+				text-align: center;
+				margin: 0 auto;
+				margin-bottom: 10px;
+				font-size: 0.9rem;
+				line-height: 2.0rem;
+				border: 1px solid #CCCCCC;
+				width: 100%;
+			}
+		}
+
+		.donation-interval {
+			text-align: center;
+			font-size: 16px;
+			line-height: 16px;
+			margin-left: 20%;
+			margin-right: 20%;
+			margin-bottom: 25px;
+		}
+
+	}
+
+}
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+
+
+}

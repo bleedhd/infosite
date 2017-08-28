@@ -1,0 +1,39 @@
+title: Quote
+pages: false
+files:
+  fields:
+    responsive: responsive
+icon: fa-file-text-o
+sortable: true
+preview: false
+status: true
+fields:
+  title:
+    label: Section Identifier
+    type:  text
+    required: true
+  navigationTitle: navigationtitle
+  quoteHeadline:
+    label: Quote
+    type: headline
+  quote:
+    label: Quote
+    type: textarea
+  sectionImage:
+    label: Image
+    type: image
+    help: 128px x 128px
+  quoteAuthor:
+    label: Author
+    type: text
+    width: 1/2
+  quoteAuthorFunction:
+    label: Function
+    type: text
+    width: 1/2
+  Colors:
+    label: Colors
+    type: headline
+    help: see <a href="/styles" target="_blank">styleguide</a> for further information
+  sectionColorBg: sectionColorBg
+  sectionColorFg: sectionColorFg

@@ -1,0 +1,39 @@
+title: Slider
+pages: false
+files: true
+  fields:
+    responsive: responsive
+icon: fa-file-text-o
+sortable: true
+preview: false
+status: true
+fields:
+  title:
+    label: Section Identifier
+    type:  text
+    required: true
+  navigationTitle: navigationtitle
+  slides:
+    label: Slides
+    type: structure
+    entry: >
+      {{headline}}<br />
+    fields:
+      image:
+        label: Slide Image
+        type: image
+      headline:
+        label: Slide Headline
+        type:  text
+      text:
+        label: Slide Text
+        type:  textarea
+        buttons: false
+      layout:
+        label: Text Position
+        type: select
+        required: true
+        options:
+          text-center: center
+          text-left: left
+          text-right: right

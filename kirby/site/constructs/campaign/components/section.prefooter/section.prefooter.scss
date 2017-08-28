@@ -1,0 +1,83 @@
+
+.section-prefooter {
+	background-color: $prefooter-bg-color;
+
+	h3 {
+		text-align: center;
+	}
+
+	h2 {
+		color: $color-2;
+
+		&::after {
+			background-color: $color-2;
+		}
+	}
+
+	.section-content {
+		color: $color-2;
+		text-align: center;
+		font-family: $font-b;
+	}
+
+	.btn-wrapper {
+		text-align: center;
+
+		.btn {
+			margin-left: 10px;
+			margin-right: 10px;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+
+	.section-prefooter {
+
+		h2 {
+			color: $color-2;
+
+			&::after {
+				background-color: $color-2;
+			}
+		}
+
+		.section-content {
+			color: $color-2;
+			text-align: center;
+			font-family: $font-b;
+		}
+
+		.btn-wrapper {
+
+			.btn {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+
+
+}

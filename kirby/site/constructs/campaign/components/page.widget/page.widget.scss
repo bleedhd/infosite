@@ -1,0 +1,42 @@
+
+#lema-container.lema-container {
+
+	.lema-step-header {
+		border-bottom: 1px solid $color-5 !important;
+
+		.lema-step-header-text {
+			color: $color-1 !important;
+			padding-left: 0;
+		}
+		.lema-step-number {
+			display: none;
+		}
+	}
+
+	.lema-amount-box.lema-active {
+		border: 2px solid $color-3 !important;
+
+		span {
+			color: $color-3 !important;
+		}
+	}
+
+	.lema-step-content {
+		background-color: #f6f6f6 !important;
+	}
+
+	.lema-button.lema-button-donate {
+		background-color: $btn-bg-color;
+		border-color: $btn-border-color;
+		border-radius: $btn-border-radius;
+		box-shadow: none;
+
+		&:active,
+		&:focus,
+		&:hover {
+			opacity: 1;
+			background-color: $btn-bg-hover-color;
+			border-color: $btn-border-hover-color;
+		}
+	}
+}

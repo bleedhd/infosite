@@ -1,0 +1,10 @@
+label: Background color
+type: select
+options:
+  bg-color-1: BG Color 1
+  bg-color-2: BG Color 2
+  bg-color-3: BG Color 3
+  bg-color-4: BG Color 4
+  bg-color-5: BG Color 5
+  bg-color-6: BG Color 6
+width: 1/2

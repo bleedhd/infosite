@@ -1,0 +1,40 @@
+title: Campaign Page
+pages:
+  template:
+    - page.content
+    - page.documents
+    - page.videos
+    - page.widget
+    - page.widget-thanks
+  build:
+    - title: Sections
+      uid: sections
+      template: campaign-sections
+icon: home
+files:
+  fields:
+    responsive: responsive
+sortable: true
+fields:
+  pageMetaData:
+    label: Page Meta Data
+    type: headline
+  indexable: indexable
+  title:
+    label: Page Title
+    type:  text
+    required: true
+  metaKeywords:
+    label: Meta Keywords
+    type: textarea
+    buttons: false
+    required: true
+  metaDescription:
+    label: Meta Description
+    type: textarea
+    buttons: false
+    required: true
+  socialImage:
+    label: Social media image
+    type:  image
+    help: 1200 x 628 (px)

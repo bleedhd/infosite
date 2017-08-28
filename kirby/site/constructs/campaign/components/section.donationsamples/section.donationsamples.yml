@@ -1,0 +1,52 @@
+title: Donation Samples
+pages: false
+files: true
+  fields:
+    responsive: responsive
+icon: fa-file-text-o
+fields:
+  title:
+    label: Section Identifier
+    type:  text
+  navigationTitle: navigationtitle
+  sectionHeadline: sectionheadline
+  sectionContent: sectioncontent
+  widget:
+    label: Widget
+    type: select
+    options: query
+    query:
+      page: system/widgets
+      fetch: children
+  widgetPage:
+    label: Widget Checkout Page
+    type: page
+  boxes:
+    label: Boxes
+    type: structure
+    style: table
+    fields:
+      image:
+        label: Image
+        type: image
+        required: true;
+      text:
+        label: Text
+        type:  textarea
+        buttons: false
+      buttonLabel:
+        label: Button Label
+        type: text
+      amount:
+        label: Amount
+        type: number
+      intervalType: intervalType
+  customAmountTitle:
+    label: Custom amount title
+    type:  text
+  Colors:
+    label: Colors
+    type: headline
+    help: see <a href="/styles" target="_blank">styleguide</a> for further information
+  sectionColorBg: sectionColorBg
+  sectionColorFg: sectionColorFg

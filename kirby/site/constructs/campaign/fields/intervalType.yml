@@ -1,0 +1,9 @@
+label: Interval
+type: select
+options:
+  none: NONE
+  weekly: Weekly
+  monthly: Monthly
+  quarterly: Quarterly
+  semestral: Biannually
+  yearly: Annually

@@ -1,0 +1,71 @@
+
+.template-page--widget-thanks .section-quote {
+	background-color: #fff;
+}
+
+.section-quote {
+	padding-bottom: $section-padding-bottom-xs;
+
+	blockquote {
+		text-align: center;
+		font-family: $font-a;
+		font-size: 1.3rem;
+		line-height: 2rem;
+		font-weight: 700;
+		margin-bottom: 1.5rem;
+	}
+
+	.quote-image {
+		display: block;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 128px;
+		height: 128px;
+		border-radius: 50%;
+	}
+
+	.quote-author {
+		text-align: center;
+		font-size: 0.9rem;
+		line-height: 1.4rem;
+		font-weight: 600;
+	}
+
+	.quote-author-function {
+		color: $quote-function-fg-color;
+		text-align: center;
+		font-size: 0.9rem;
+		line-height: 1.4rem;
+	}
+}
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+	.section-quote {
+		padding-bottom: $section-padding-bottom;
+	}
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+
+
+}

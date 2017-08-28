@@ -1,0 +1,7 @@
+type: structure
+style: table
+fields:
+  amount:
+    label: Amount
+    type: number
+    min: 1

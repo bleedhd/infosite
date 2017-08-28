@@ -1,0 +1,133 @@
+
+@include media-breakpoint-only(xs) {
+	.section-parallax {
+		background-image: none !important;
+	}
+}
+@include media-breakpoint-only(sm) {
+	.section-parallax {
+		background-image: none !important;
+	}
+}
+@include media-breakpoint-only(md) {
+	.section-parallax {
+		background-image: none !important;
+	}
+}
+
+.section-parallax {
+	padding-top: 0;
+	padding-bottom: 0;
+
+	&.fg-color-1 {
+
+		h3 {
+			color: $color-1;
+		}
+
+		.section-content {
+			color: $color-1;
+		}
+	}
+
+	&.fg-color-2 {
+
+		h3 {
+			color: $color-2;
+		}
+
+		.section-content {
+			color: $color-2;
+		}
+	}
+
+	.img-fluid {
+		margin-bottom: 40px;
+	}
+
+	.parallax-content-wrapper {
+
+		.parallax-content {
+			position: relative;
+			text-align: center;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+}
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+	.section-parallax {
+		padding-top: 0;
+		padding-bottom: 0;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+
+		&.fg-color-2 {
+
+			h3 {
+				color: #fff;
+			}
+
+			.section-content {
+				color: #fff;
+			}
+		}
+
+		.parallax-content-wrapper {
+			height: $parallax-height;
+			@include vertical-align-container();
+
+			.parallax-content {
+				@include vertical-align();
+				padding-left: 15px;
+				padding-right: 15px;
+
+				&.text-left {
+					width: 50%;
+					text-align: left;
+				}
+
+				&.text-center {
+					text-align: center;
+					margin-left: 50px;
+					margin-right: 50px;
+				}
+
+				&.text-right {
+					width: 50%;
+					text-align: left;
+					margin-left: 50%;
+				}
+			}
+		}
+	}
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+
+
+}

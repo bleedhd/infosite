@@ -1,0 +1,95 @@
+
+.section-accordion {
+
+	h3 {
+		text-align: center;
+	}
+
+	.section-content {
+		font-family: $font-b;
+		text-align: center;
+	}
+}
+
+.accordion-wrapper {
+	margin-top: $accordion-margin-top-xs;
+	margin-bottom: $accordion-margin-bottom-xs;
+	border-top: 1px solid $accordion-border-color;
+
+	.accordion-element {
+		border-bottom: 1px solid $accordion-border-color;
+
+		.accordion-head {
+			cursor: pointer;
+			font-family: $font-b;
+			font-size: 1.1rem;
+			font-weight: 700;
+			padding-top: 1.0rem;
+			padding-right: 50px;
+			padding-bottom: 1.0rem;
+			background-image: $img-path-minus;
+			background-repeat: no-repeat;
+			background-position: center right;
+			background-size: 1.4rem 1.4rem;
+
+			&.collapsed {
+				background-image: $img-path-plus;
+				background-repeat: no-repeat;
+				background-size: 1.4rem 1.4rem;
+			}
+		}
+
+		.accordion-body {
+			color: $color-4;
+			font-size: 0.9rem;
+			line-height: 1.65rem;
+			padding-top: 10px;
+			padding-right: 50px;
+			padding-bottom: 15px;
+		}
+	}
+}
+
+.section-summary-title {
+	font-weight: 600;
+	font-size: 1.1rem;
+	line-height: 1.9rem;
+	padding-bottom: 0;
+}
+
+.section-summary {
+	color: $color-4;
+	font-size: 1.1rem;
+	line-height: 1.9rem;
+}
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+
+	.accordion-wrapper {
+		margin-top: $accordion-margin-top;
+		margin-bottom: $accordion-margin-bottom;
+	}
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+
+
+}

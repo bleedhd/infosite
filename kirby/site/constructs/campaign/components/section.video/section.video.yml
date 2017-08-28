@@ -1,0 +1,47 @@
+title: Video
+pages: false
+files: false
+icon: fa-file-text-o
+sortable: true
+preview: false
+status: true
+fields:
+  title:
+    label: Section Identifier
+    type:  text
+    required: true
+  navigationTitle: navigationtitle
+  sectionTitle: sectiontitle
+  sectionHeadline: sectionheadline
+  sectionContent: sectioncontent
+  videoEmbed:
+    label: Video Embed Code
+    type: text
+    buttons: false
+    required: true
+  videoAspectRatio:
+    label: Video aspect ratio
+    type: select
+    default: 16:9
+    options:
+      16by9: 16:9
+      4by3: 4:3
+  linkUrl:
+    label: Link URL
+    type: page
+  linkLabel:
+    label: Link Text
+    type: text
+  layout:
+    label: Text position
+    type: select
+    required: true
+    options:
+      text-left: left
+      text-right: right
+  Colors:
+    label: Colors
+    type: headline
+    help: see <a href="/styles" target="_blank">styleguide</a> for further information
+  sectionColorBg: sectionColorBg
+  sectionColorFg: sectionColorFg

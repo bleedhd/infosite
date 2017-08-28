@@ -1,0 +1,32 @@
+title: Contact Form Page
+pages: true
+files: true
+fields:
+  pageMetaData:
+    label: Page Meta Data
+    type: headline
+  indexable: indexable
+  title:
+    label: Navigation title
+    type:  text
+
+  Main content:
+    label: Main content
+    type: headline
+  mainTitle:
+    label: Title
+    type:  text
+  mainHeadline:
+    label: Lead
+    type:  textarea
+    buttons: false
+  mainContent:
+    label: Text
+    type:  textarea
+    buttons: true
+  thanksPage:
+    label: Thank you page
+    type: page
+    required: true
+
+

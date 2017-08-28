@@ -1,0 +1,6 @@
+label: Headline & Text color
+type: select
+options:
+  fg-color-1: Color 1
+  fg-color-2: Color 2
+width: 1/2

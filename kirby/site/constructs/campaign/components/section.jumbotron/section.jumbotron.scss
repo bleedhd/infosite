@@ -1,0 +1,151 @@
+
+@include media-breakpoint-only(xs) {
+
+	.section-jumbotron {
+		background-image: none !important;
+		border-bottom: 1px solid #E0E0E0;
+
+		.jumbotron-content-wrapper {
+
+			h1 {
+				text-align: left;
+				color: $color-1;
+				margin-bottom: 17px;
+			}
+
+			.section-content {
+				text-align: left;
+				color: $color-1;
+				margin-bottom: 21px;
+			}
+
+			.btn {
+				display: block;
+				width: 100%;
+			}
+		}
+	}
+}
+@include media-breakpoint-only(sm) {
+
+	.section-jumbotron {
+		background-image: none !important;
+
+		.jumbotron-content-wrapper {
+
+			h1,
+			.section-content {
+				text-align: left;
+				color: $color-1;
+			}
+		}
+	}
+}
+@include media-breakpoint-only(md) {
+
+	.section-jumbotron {
+		background-image: none !important;
+
+		.jumbotron-content-wrapper {
+
+			h1,
+			.section-content {
+				text-align: left;
+				color: $color-1;
+			}
+		}
+	}
+}
+
+.section-jumbotron {
+	position: relative;
+	padding-top: 0;
+	padding-bottom: $section-padding-bottom-xs;
+
+	.img-fluid {
+		margin-bottom: 35px;
+	}
+
+	.jumbotron-content-wrapper {
+
+		.jumbotron-content {
+			position: relative;
+			text-align: center;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+}
+
+.catchphrase {
+	position: absolute;
+	width: $catchphrase-width-xs;
+	height: $catchphrase-height-xs;
+}
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+
+	.catchphrase {
+		width: $catchphrase-width;
+		height: $catchphrase-height;
+	}
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+	.section-jumbotron {
+		padding-top: 0;
+		padding-bottom: 0;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+
+		.jumbotron-content-wrapper {
+			height: $jumbotron-height;
+			@include vertical-align-container();
+
+			.jumbotron-content {
+				@include vertical-align();
+				padding-left: 15px;
+				padding-right: 15px;
+
+				&.jumbotron-text-left {
+					width: 60%;
+					text-align: left;
+				}
+
+				&.jumbotron-text-center {
+					text-align: center;
+					margin-left: 50px;
+					margin-right: 50px;
+				}
+
+				&.jumbotron-text-right {
+					width: 60%;
+					text-align: left;
+					margin-left: 50%;
+				}
+			}
+		}
+	}
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+
+
+}

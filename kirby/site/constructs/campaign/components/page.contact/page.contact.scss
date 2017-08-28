@@ -1,0 +1,100 @@
+
+.uniform__potty {
+	position: absolute;
+	left: -9999px;
+}
+
+#contact-form {
+
+	// Fancy radio and checkbox replacements
+	input[type="radio"],
+	input[type="checkbox"] {
+		display:none;
+	}
+	input[type="radio"] + span:before,
+	input[type="checkbox"] + span:before {
+		position: relative;
+		display: inline-block;
+		content: "\00a0";
+		margin-right: 10px;
+		line-height: 22px;
+		width: 22px;
+		height: 22px;
+		background-repeat: no-repeat;
+	}
+	input[type="radio"] + span:before {
+		background-image: $img-path-radio-unchecked;
+	}
+	input[type="radio"]:checked + span:before {
+		background-image: $img-path-radio-checked;
+	}
+	input[type="checkbox"] + span:before {
+		background-image: $img-path-checkbox-unchecked;
+	}
+	input[type="checkbox"]:checked + span:before {
+		background-image: $img-path-checkbox-checked;
+	}
+
+	.form-check {
+		margin-top: 7px;
+
+		label {
+			margin-right: 20px;
+		}
+	}
+
+	input,
+	textarea {
+		border: 1px solid #ddd;
+		box-shadow: none;
+		border-radius: 0;
+
+		&:focus {
+			border: 1px solid #999;
+		}
+	}
+
+	.error {
+
+		label {
+			color: #F85A59;
+		}
+
+		input,
+		textarea {
+			border: 1px solid #F85A59;
+		}
+	}
+}
+
+.alert {
+	border-radius: 0;
+}
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+
+
+}

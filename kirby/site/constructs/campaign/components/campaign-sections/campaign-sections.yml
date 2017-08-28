@@ -1,0 +1,31 @@
+title: Sections
+pages:
+  template:
+    - section.text
+    - section.twocol
+    - section.video
+    - section.accordion
+    - section.jumbotron
+    - section.parallax
+    - section.documents
+    - section.slider
+    - section.amountselector
+    - section.donationsamples
+    - section.socialmedia
+    - section.bulletpoints
+    - section.quote
+    - section.prefooter
+    - section.floatingfooter
+  build:
+    - title: Jumbotron
+      uid: jumbotron
+      template: section.jumbotron
+      num: 1
+icon: list-ul
+files: false
+hide: false
+sortable: true
+options:
+  preview: false
+  status: false
+fields:

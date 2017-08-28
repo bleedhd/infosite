@@ -14,9 +14,6 @@
 	path = kirby/site/plugins/constructs
 	url = https://github.com/lord-executor/kirby-constructs.git
 	branch = v-1.0.0-rc1
-[submodule "kirby/site/constructs/campaign"]
-	path = kirby/site/constructs/campaign
-	url = git@bitbucket.org:getunik/getunikcampaigntemplateconstructs.git
 [submodule "kirby/site/plugins/jsonapi"]
 	path = kirby/site/plugins/jsonapi
 	url = git@github.com:lord-executor/kirby-json-api.git

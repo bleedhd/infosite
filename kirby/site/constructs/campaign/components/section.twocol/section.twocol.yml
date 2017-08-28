@@ -1,0 +1,49 @@
+title: 2-Col Split
+pages: false
+files:
+  fields:
+    responsive: responsive
+icon: fa-file-text-o
+sortable: true
+preview: false
+status: true
+fields:
+  title:
+    label: Section Identifier
+    type:  text
+    required: true
+  navigationTitle: navigationtitle
+  sectionTitle: sectiontitle
+  sectionHeadline: sectionheadline
+  sectionContent: sectioncontent
+  sectionImage:
+    label: Image
+    type: image
+    required: true
+  cta:
+    label: CTA
+    type: headline
+  linkLabel:
+    label: Link Label
+    type: text
+  linkUrlInternal:
+    label: Link URL (Internal)
+    type: page
+    width: 1/2
+  linkUrlExternal:
+    label: Link URL (External)
+    type: url
+    width: 1/2
+  layout:
+    label: Text position
+    type: select
+    required: true
+    options:
+      text-left: left
+      text-right: right
+  Colors:
+    label: Colors
+    type: headline
+    help: see <a href="/styles" target="_blank">styleguide</a> for further information
+  sectionColorBg: sectionColorBg
+  sectionColorFg: sectionColorFg

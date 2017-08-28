@@ -1,0 +1,108 @@
+
+@include media-breakpoint-only(xs) {
+	.col-centered {
+		display: block;
+	}
+}
+
+.section-documents {
+
+	h3 {
+		text-align: center;
+	}
+
+	.section-content {
+		text-align: center;
+	}
+}
+
+.doc-teaser-box {
+	margin-bottom: 30px;
+	padding: 30px;
+	background-color: $docteaserbox-bg-color;
+	border: 1px solid #fafafa;
+
+	.doc-teaser-box-header {
+
+		.doc-icon {
+			display: block;
+			width: 128px;
+			height: 128px;
+			border-radius: 50%;
+			margin: 0 auto;
+			background-image: $img-path-doc-icon;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-color: $docteaserbox-icon-bg-color;
+		}
+
+	}
+	.doc-teaser-box-body {
+
+		.doc-teaser-title {
+			color: $docteaserbox-fg-color;
+			text-align: center;
+			font-family: $font-a;
+			font-size: 1.1rem;
+			font-weight: 600;
+			margin-top: 1.25rem;
+			margin-bottom: 0.75rem;
+		}
+
+		.doc-teaser-text {
+			font-family: $font-a;
+			color: $color-4;
+			font-size: 0.9rem;
+			line-height: 1.4rem;
+			text-align: center;
+			margin-top: 0.5rem;
+			margin-bottom: 1.5rem;
+		}
+
+		.doc-button-wrapper {
+			text-align: center;
+
+			.btn {
+				display: inline-block;
+			}
+
+			.read-more {
+				display: inline-block;
+			}
+		}
+
+	}
+}
+
+.doc-button-wrapper-more {
+	text-align: center;
+	margin-top: 15px;
+}
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+
+
+}

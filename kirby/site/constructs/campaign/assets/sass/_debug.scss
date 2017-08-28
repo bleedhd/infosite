@@ -1,0 +1,54 @@
+
+body:after {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: yellow;
+	color: black;
+	width: auto;
+}
+
+body.debug::after {
+	display: inline-block;
+}
+
+body::after {
+	content: "xs";
+}
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+
+	body::after {
+		content: "sm";
+	}
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+	body::after {
+		content: "md";
+	}
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+	body::after {
+		content: "lg";
+	}
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+	body::after {
+		content: "xl";
+	}
+
+}

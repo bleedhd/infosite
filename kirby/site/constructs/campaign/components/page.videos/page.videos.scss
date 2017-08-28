@@ -1,0 +1,69 @@
+
+.camp-hr {
+  color: #DDD;
+  background: #DDD;
+  height: 1px;
+  font-size: 0;
+  border: 0;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.video-row {
+	padding-top: 0;
+	padding-bottom: 0;
+
+	.video-item {
+		margin-top: 30px;
+	}
+}
+
+h2.video-title {
+	font-family: $font-a;
+	font-weight: 700;
+	font-size: 1.1rem;
+	line-height: 1.7rem;
+	margin-bottom: 0.75rem;
+}
+
+.video-description {
+	font-family: $font-a;
+	color: $color-4;
+	font-size: 0.9rem;
+	line-height: 1.8rem;
+}
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+	.video-row {
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+		.video-item {
+			margin-top: 10px;
+		}
+	}
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+
+
+}

@@ -1,0 +1,44 @@
+
+.video-item {
+	margin-bottom: 25px;
+}
+
+.center-vertical {
+	position: relative;
+	@include vertical-align-container();
+
+	.video-item {
+		@include vertical-align();
+	}
+}
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+	.video-item {
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+
+
+}

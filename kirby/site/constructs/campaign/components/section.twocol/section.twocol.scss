@@ -1,0 +1,69 @@
+
+.section-twocol {
+
+	&.fg-color-1 h2 {
+
+		&::after {
+			background-color: $color-1;
+		}
+	}
+
+	&.fg-color-1 h3 {
+		color: $color-1;
+	}
+
+	&.fg-color-1 .section-content {
+		color: $color-1;
+	}
+
+	&.fg-color-2 h2 {
+
+		&::after {
+			background-color: $color-2;
+		}
+	}
+
+	&.fg-color-2 h3 {
+		color: $color-2;
+	}
+
+	&.fg-color-2 .section-content {
+		color: $color-2;
+	}
+
+}
+
+img.img-fluid {
+	margin-bottom: 40px;
+}
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+	img.img-fluid {
+		margin-bottom: 0;
+	}
+
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+
+
+}

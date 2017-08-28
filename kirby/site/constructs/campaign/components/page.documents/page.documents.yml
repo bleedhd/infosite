@@ -1,0 +1,59 @@
+title: Documents Page
+pages: true
+files: true
+  fields:
+      title:
+        label: File title
+        type: textarea
+        buttons: false
+      text:
+        label: File text
+        type: textarea
+        buttons: false
+      feature:
+        type: checkbox
+        text: Show on Campaign page
+        help: Max. 3 documents are visible in the download section of the campaign page
+fields:
+
+  pageMetaData:
+    label: Page Meta Data
+    type: headline
+  indexable: indexable
+  title:
+    label: Navigation title
+    type:  text
+
+  Main content:
+    label: Main content
+    type: headline
+  mainTitle:
+    label: Title
+    type:  text
+  mainHeadline:
+    label: Lead
+    type:  textarea
+    buttons: false
+  mainContent:
+    label: Text
+    type:  textarea
+    buttons: true
+
+  groups:
+    label: Download Sections
+    type: structure
+    entry: >
+      {{sectionheadline}}<br />
+    fields:
+      sectionHeadline:
+        label: Headline
+        type: text
+      attachments:
+        label: Downloads
+        type: selector
+        mode: multiple
+        types:
+          - document
+
+
+

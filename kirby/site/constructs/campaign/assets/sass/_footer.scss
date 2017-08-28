@@ -1,0 +1,103 @@
+.template-page--campaign .footer {
+	// floating footer fix!
+	margin-bottom: 68px;
+}
+
+.footer {
+	color: $footer-fg-color;
+	font-size: 1rem;
+	background-color: $footer-bg-color;
+	padding-top: 40px;
+	padding-bottom: 60px;
+
+	hr {
+    	color: $footer-hr-color;
+    	background: $footer-hr-color;
+	}
+}
+
+.social-media {
+	float: right;
+
+	.social-media-link {
+		float: left;
+		display: block;
+		width: 27px;
+		height: 27px;
+		font-size: 0;
+		margin-left: 10px;
+		background-repeat: no-repeat;
+
+		&.facebook {
+			background-image: $img-path-facebook;
+		}
+		&.twitter {
+			background-image: $img-path-twitter;
+		}
+		&.youtube {
+			background-image: $img-path-youtube;
+		}
+		&.instagram {
+			background-image: $img-path-instagram;
+		}
+		&.gplus {
+			background-image: $img-path-gplus;
+		}
+	}
+}
+
+.right-column-links {
+
+	li {
+
+		a {
+			color: $footer-fg-color;
+		}
+	}
+}
+
+.footer-brand-logo {
+	display: block;
+	margin-top: 20px;
+}
+
+@include media-breakpoint-only(xs) {
+
+	.social-media .social-media-link {
+		margin-top: 10px;
+	}
+
+}
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+	.footer-brand-logo {
+		float: right;
+		margin-top: 0;
+	}
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+	.footer {
+		font-size: 0.8rem;
+	}
+
+}

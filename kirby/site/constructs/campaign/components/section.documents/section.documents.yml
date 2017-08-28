@@ -1,0 +1,30 @@
+title: Documents & Downloads
+pages: false
+files: false
+icon: fa-file-text-o
+preview: false
+sortable: true
+status: true
+fields:
+  title:
+    label: Section Identifier
+    type:  text
+    required: true
+  navigationTitle: navigationtitle
+  sectionTitle: sectiontitle
+  sectionHeadline: sectionheadline
+  sectionContent: sectioncontent
+  downloads:
+    label: Documents & Download Page
+    type: page
+    required: true
+  linkLabel:
+    label: Link Text
+    type: text
+    help: Empty field will surpress link to Documents & Downloads Page
+  Colors:
+    label: Colors
+    type: headline
+    help: see <a href="/styles" target="_blank">styleguide</a> for further information
+  sectionColorBg: sectionColorBg
+  sectionColorFg: sectionColorFg

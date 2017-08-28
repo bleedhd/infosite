@@ -1,0 +1,83 @@
+title: Amount selection
+pages: false
+files: true
+  fields:
+    responsive: responsive
+icon: fa-file-text-o
+fields:
+  title:
+    label: Section Identifier
+    type:  text
+  navigationTitle: navigationtitle
+  sectionHeadline: sectionheadline
+  shortHeadline:
+    label: Short Section Headline
+    type: textarea
+    buttons: false
+    help: Used in tablet and mobile view instead Section Headline
+  sectionContent: sectioncontent
+  sectionImage:
+    label: Image
+    type: image
+  boxTitle:
+    label: Box Title
+    type: text
+    required: true
+  buttonLabel:
+    label: Button Label
+    type: text
+    required: true
+  widget:
+    label: Widget
+    type: select
+    required: true
+    options: query
+    query:
+      page: system/widgets
+      fetch: children
+  widgetPage:
+    label: Widget Checkout Page
+    type: page
+    required: true
+
+  onetimeAmounts:
+    extends: amounts
+    label: Amounts (one-time)
+    help: Exactly 3 different amounts are required.
+  onetimeDefaultAmount:
+    label: Default amount (one-time)
+    type: number
+  recurringAmounts:
+    extends: amounts
+    label: Amounts (recurring)
+    help: Exactly 3 different amounts are required; they represent <strong>monthly</strong> amounts.
+  recurringDefaultAmount:
+    label: Default amount (recurring)
+    type: number
+  intervals:
+    label: Intervals
+    type: structure
+    style: table
+    required: true
+    help: Select at least one interval. Select "none" for one time only donations.
+    fields:
+      intervalType: intervalType
+  defaultInterval:
+    extends: intervalType
+    label: Default interval
+  customAmountLabel:
+    label: Custom Amount Label
+    type: text
+  layout:
+    label: Text Position
+    type: select
+    required: true
+    options:
+      text-left: left
+      text-right: right
+  Colors:
+    label: Colors
+    type: headline
+    help: see <a href="/styles" target="_blank">styleguide</a> for further information
+  sectionColorBg: sectionColorBg
+  sectionColorFg: sectionColorFg

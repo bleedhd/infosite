@@ -1,0 +1,64 @@
+
+.downloads-list {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding-left: 0;
+	border-top: 1px solid #ddd;
+
+	li {
+		list-style-type: none;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		border-bottom: 1px solid #ddd;
+
+		a {
+			display: block;
+			color: $color-3;
+			font-size: 0.8rem;
+			line-height: 1.4rem;
+			text-decoration: none;
+			padding-left: 40px;
+			background-image: $img-path-arrow-down;
+			background-repeat: no-repeat;
+			background-size: 1.4rem 1.4rem;
+
+			span.file-info {
+				color: $color-4;
+				text-transform: uppercase;
+			}
+			span.file-text {
+				display: block;
+				color: $color-4;
+
+			}
+		}
+	}
+}
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+
+
+}

@@ -1,0 +1,26 @@
+title: Text Section
+pages: false
+files: false
+icon: fa-file-text-o
+sortable: true
+preview: false
+status: true
+fields:
+  title:
+    label: Section Identifier
+    type:  text
+    required: true
+  navigationTitle: navigationtitle
+  sectionTitle: sectiontitle
+  sectionHeadline: sectionheadline
+  sectionContent: sectioncontent
+  socialMediaEmbed:
+    label: Social Media Code Snippet
+    type: textarea
+    buttons: false
+  Colors:
+    label: Colors
+    type: headline
+    help: see <a href="/styles" target="_blank">styleguide</a> for further information
+  sectionColorBg: sectionColorBg
+  sectionColorFg: sectionColorFg

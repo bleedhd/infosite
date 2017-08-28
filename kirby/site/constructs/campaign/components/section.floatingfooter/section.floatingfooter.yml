@@ -1,0 +1,27 @@
+title: Floating Footer
+pages: false
+files: false
+icon: fa-file-text-o
+sortable: true
+preview: false
+status: true
+fields:
+  title:
+    label: Section Identifier
+    type:  text
+    required: true
+  linkLabel:
+    label: Button Text
+    type: text
+    required: true
+  target:
+    label: Target Section
+    type: select
+    required: true
+    default: floating footer
+    options: query
+    query:
+      fetch: visibleSiblings
+      value: '{{uid}}'
+      text: '{{title}}'
+      required: true

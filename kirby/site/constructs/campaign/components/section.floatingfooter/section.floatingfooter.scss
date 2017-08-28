@@ -1,0 +1,54 @@
+// remove the section from the document flow so that it does not interfere with the page layout
+.section-floatingfooter {
+	position: absolute;
+}
+
+.floatingfooter {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	box-shadow: 0px -5px 10px 0px rgba(50, 50, 50, 0.15);
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	display: none;
+	z-index: 100;
+	background-color: $floatingfooter-bg-color;
+}
+
+.floatingfooter-button-wrapper {
+	text-align: center;
+
+	.btn {
+		display: inline-block;
+	}
+}
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+
+
+}

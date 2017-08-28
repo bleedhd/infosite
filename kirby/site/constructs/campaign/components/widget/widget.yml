@@ -1,0 +1,68 @@
+title: Widget
+pages: false
+files: false
+icon: usd
+preview: false
+status: true
+fields:
+  title:
+    label: Identifier
+    type:  text
+    required: true
+  widgetConfigId:
+    label: Widget Configuration ID
+    type: text
+  campaignId:
+    label: Campaign ID
+    type: text
+  campaignSubId:
+    label: Campaign SubID
+    type: text
+  purposeText:
+    label: Purpose Text
+    type: text
+  amountConfiguration:
+    label: Amount Configuration
+    type: headline
+  onetimeAmounts:
+      extends: amounts
+      label: Amounts (one-time)
+      help: If set, overrides the widget's default amounts.
+    recurringAmounts:
+      extends: amounts
+      label: Amounts (recurring)
+      help: If set, overrides the widget's default amounts.
+  onetimeMinAmount:
+    label: Minimum amount (one-time)
+    type: number
+  onetimeMaxAmount:
+    label: Maximum amount (one-time)
+    type: number
+  recurringMinAmount:
+    label: Minimum Amount (recurring, monthly)
+    type: number
+  recurringMaxAmount:
+    label: Maximum Amount (recurring, monthly)
+    type: number
+  customizationOptions:
+    label: Customization Options
+    type: headline
+  # TODO-LAR: replace this with a custom field for selecting predefined widget customization scripts
+  stylesheet:
+    label: Stylesheet
+    type: text
+    default: 'rnw:///widgets/lema/demo/css/dds-widget.min.css'
+    help: Specify the stylesheet URL to use for the widget styling. Use 'rnw://' prefix to refer to files on the RaiseNow server.
+  widgetModules:
+    label: Widget Modules
+    type: structure
+    style: table
+    fields:
+      module:
+        label: Module
+        type: controlledselect
+        controller: Getunik\Campaign\WidgetModules::listOptions
+  customCode:
+    label: Additional Custom Code
+    type: textarea
+    buttons: false

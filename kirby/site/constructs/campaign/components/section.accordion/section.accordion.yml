@@ -1,0 +1,43 @@
+title: Accordion
+pages: false
+files: false
+icon: fa-file-text-o
+sortable: true
+preview: false
+status: true
+fields:
+  title:
+    label: Section Identifier
+    type:  text
+    required: true
+  navigationTitle: navigationtitle
+  sectionTitle: sectiontitle
+  sectionHeadline: sectionheadline
+  sectionContent: sectioncontent
+  items:
+    label: Accordion Item
+    type: structure
+    entry: >
+      Title: {{title}}<br />
+      Text: {{text}}
+    fields:
+      title:
+        label: Title
+        type: text
+        required: true
+      text:
+        label: Text
+        type:  textarea
+        buttons: false
+        required: true
+  Section summary:
+    label: Secton summary
+    type: headline
+  sectionSummaryTitle: sectionsummarytitle
+  sectionSummary: sectionsummary
+  Colors:
+    label: Colors
+    type: headline
+    help: see <a href="/styles" target="_blank">styleguide</a> for further information
+  sectionColorBg: sectionColorBg
+  sectionColorFg: sectionColorFg

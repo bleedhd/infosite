@@ -1,0 +1,155 @@
+.navbar-mobile-header-wrapper {
+	position: relative;
+	z-index: 1;
+	box-shadow: 0 1px 15px 0 rgba(0,0,0,0.15);
+
+	.navbar-mobile-header {
+		position: relative;
+		@include vertical-align-container;
+		height: 60px;
+
+		.navbar-brand {
+			float: left;
+			display: block;
+			@include vertical-align;
+		}
+
+		.navbar-toggler {
+			@include vertical-align;
+			float: right;
+			margin: 0;
+			padding: 0;
+			width: 22px;
+			height: 24px;
+			border-radius: 0;
+
+			.icon-bar {
+				display: block;
+				margin-bottom: 4px;
+				width: 22px;
+				height: 4px;
+				background-color: #000;
+			}
+		}
+	}
+}
+
+.top-navi {
+	position: relative;
+	z-index: 1;
+	background-color: $color-3;
+	box-shadow: 0 1px 15px 0 rgba(0,0,0,0.15);
+
+	ul.top-navi-menu {
+		margin-bottom: 0;
+		padding-top: 8px;
+		padding-left: 0;
+		padding-bottom: 24px;
+
+		li {
+			display: block;
+			list-style-type: none;
+
+			a {
+				display: block;
+				text-align: center;
+				color: #fff;
+				font-size: 1rem;
+				font-weight: 600;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				border-bottom: 1px solid rgba(255,255,255,0.15);
+				text-decoration: none;
+
+				&:hover {
+					color: $color-2;
+				}
+			}
+		}
+		li.external-link {
+			display: none;
+		}
+	}
+}
+
+// Small devices (landscape phones, 544px and up)
+@include media-breakpoint-up(sm) {
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+
+	.top-navi {
+		background-color: #fff;
+
+		.collapse {
+			display: block;
+		}
+
+		.navbar-brand {
+			float: left;
+			display: block;
+			@include vertical-align;
+		}
+
+		nav {
+			position: relative;
+			@include vertical-align-container;
+			height: 110px;
+
+			ul.top-navi-menu {
+				@include vertical-align;
+				float: right;
+				padding-top: 0;
+				padding-bottom: 0;
+
+				li {
+					display: inline-block;
+					list-style-type: none;
+					padding-left: 20px;
+					padding-right: 20px;
+
+					a {
+						display: block;
+						text-align: left;
+						color: #000;
+						font-size: 0.9rem;
+						padding-top: 0;
+						padding-bottom: 0;
+						border-bottom: none;
+
+						&:hover {
+							color: $color-3;
+						}
+					}
+				}
+				li.external-link {
+					display: inline-block;
+					border-left: 1px solid #E0E0E0;
+
+					a {
+						color: $color-3;
+					}
+				}
+			}
+		}
+	}
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+
+
+
+}

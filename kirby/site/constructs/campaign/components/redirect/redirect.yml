@@ -1,0 +1,17 @@
+title: Redirect
+pages: false
+files: false
+icon: link
+preview: false
+status: true
+fields:
+  title:
+    label: Identifier
+    type:  text
+    required: true
+  rewritePath:
+    label: Rewrite Path
+    type: text
+  rewriteQuery:
+    label: Rewrite Query
+    type: text

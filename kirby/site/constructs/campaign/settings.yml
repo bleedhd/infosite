@@ -1,0 +1,16 @@
+name: campaign
+rootNamespace: Getunik\Campaign
+defaultPageModel: Constructs\ComponentPage
+pageModel:
+  page.campaign: Page
+  campaign-sections: Constructs\ConfigurationPage
+  page.contact: Page
+  page.content: Page
+  page.documents: Page
+  style-guide: Page
+  page.videos: Page
+  widget: Constructs\ConfigurationPage
+  page.widget: Page
+  page.widget-thanks: Page
+nesting: ':grandchildren:'
+initFile: init.php

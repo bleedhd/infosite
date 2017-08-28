@@ -1,0 +1,16 @@
+title: Style Guide
+icon: cogs
+pages: true
+files: true
+  fields:
+    responsive: responsive
+fields:
+  title:
+    label: Navigation title
+    type:  text
+  Main content:
+    label: Main content
+    type: headline
+  mainTitle:
+    label: Title
+    type:  text
