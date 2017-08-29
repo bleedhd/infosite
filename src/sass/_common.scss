@@ -95,7 +95,7 @@ hr {
 
 h1 {
 	font-family: $font-a;
-	font-weight: 600;
+	font-weight: 400;
 	line-height: 1.9rem;
 	margin-bottom: 1.5rem;
 }
@@ -123,13 +123,14 @@ h2 {
 h3 {
 	color: $color-3;
 	font-family: $font-a;
+	font-weight: 400;
 	line-height: 1.9rem;
 	margin-bottom: 16px;
 }
 
 h4 {
 	font-family: $font-a;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 // Section Content
@@ -143,7 +144,7 @@ h4 {
 
 .icon-link {
 	display: inline-block;
-	color: #000;
+	color: $color-3;
 	font-size: 1.1rem;
 	line-height: 1.8rem;
 	margin-bottom: 40px;
@@ -154,7 +155,7 @@ h4 {
 	background-position: 0 6px;
 
 	&:hover {
-		color: #000;
+		color: $color-3;
 		text-decoration: none;
 	}
 
@@ -174,7 +175,7 @@ h4 {
 .section-subpage {
 
 	h1 {
-		color: $color-1;
+		color: $color-3;
 		font-size: 1.3rem;
 		line-height: 1.9rem;
 	}
@@ -222,15 +223,100 @@ section.section-jumbotron {
 		.jumbotron-content {
 
 			h1 {
-
+				color: $color-3;
 			}
 
 			.section-content {
+				color: $color-4;
+			}
+		}
+	}
+}
 
+section.section-bulletpoints {
+	padding-top: $section-padding-top-xs;
+	padding-bottom: $section-padding-bottom-xs;
+
+	h3 {
+		color: $color-3;
+	}
+}
+
+section.section-accordion {
+	.accordion-wrapper {
+
+		.accordion-element {
+
+			.accordion-head {
+				color: $color-3;
+				font-weight: 400;
+			}
+
+			.accordion-body-wrapper {
+
+				.accordion-body {
+
+				}
 			}
 		}
 	}
 
+	.section-summary-title {
+		color: $color-3;
+	}
+	.section-summary {
+
+	}
+}
+
+section.section-slider {
+
+	.slick-slider .slick-slide .slick-slide-content-wrapper {
+
+		.slick-slide-content {
+
+			h3 {
+				color: $color-3;
+			}
+
+			.section-content {
+				color: $color-4;
+			}
+		}
+	}
+}
+
+section.section-parallax {
+
+	.parallax-content-wrapper {
+
+		.parallax-content {
+
+			h3 {
+				text-align: left;
+				color: $color-3;
+			}
+
+			.section-content {
+				text-align: left;
+				color: $color-4;
+			}
+		}
+	}
+}
+
+section.section-documents {
+
+	.doc-teaser-box {
+
+		.doc-teaser-box-body {
+
+			.doc-teaser-title {
+				color: $color-3;
+				font-weight: 400;
+			}
+		}
+	}
 }
 
 // Small devices (landscape phones, 544px and up)
@@ -443,6 +529,35 @@ section.section-jumbotron {
 
 				.btn.btn-primary {
 					@include btn-inverted;
+				}
+			}
+		}
+	}
+
+	section.section-bulletpoints {
+		padding-top: $section-padding-top;
+		padding-bottom: $section-padding-bottom;
+
+		.list-unstyled.bullet-points {
+
+			li {
+				color: $color-4;
+			}
+		}
+	}
+
+	section.section-parallax {
+
+		.parallax-content-wrapper {
+
+			.parallax-content {
+
+				h3 {
+					color: $color-2;
+				}
+
+				.section-content {
+					color: $color-2;
 				}
 			}
 		}
