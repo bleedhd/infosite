@@ -37,17 +37,11 @@ var gulp  = require('gulp'),
 
 
 var env = {
-	dev: {
-		user: 'www-data',
-		host: 'guroot.nine.ch',
-		path: '/home/www-data/www/dev.getunik.net/bleedhd-camp/',
+	prod: {
+		user: 'scheferi',
+		host: 'schefer.info',
+		path: '/home/scheferi/public_html/bleedhd.com/',
 	},
-//	prod: {
-//		user: 'www-data',
-//		host: 'gushare01.nine.ch',
-//		path: '/home/www-data/www/demo-one.getunik.com/',
-//		prompt: true,
-//	},
 };
 
 /*
