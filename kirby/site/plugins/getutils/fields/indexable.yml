@@ -1,0 +1,4 @@
+label: Search results
+type: checkbox
+text: Include this page in search results
+default: 1

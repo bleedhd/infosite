@@ -1,0 +1,9 @@
+label: Responsive Image Variants
+type: structure
+help: For the main image only, choose another image to use as a responsive replacement at the given breakpoint.
+entry: {{breakpoint}} =&gt; {{image}}<br />
+fields:
+    breakpoint: breakpoints
+    image:
+        label: Image
+        type: image

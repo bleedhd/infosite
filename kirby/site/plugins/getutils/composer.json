@@ -1,0 +1,20 @@
+{
+    "name": "getunik/getutils",
+    "description": "Kirby utilities plugin",
+    "type": "kirby-plugin",
+    "version": "1.2.0",
+    "authors": [
+        {
+            "name": "Lukas Angerer",
+            "email": "lukas.angerer@getunik.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+            "GetUtils\\": "src/"
+        }
+    },
+    "require": {
+        "mobiledetect/mobiledetectlib": "^2.8"
+    }
+}

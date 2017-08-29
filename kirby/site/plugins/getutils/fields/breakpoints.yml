@@ -1,0 +1,8 @@
+label: Breakpoint
+type: select
+options:
+    xs: Small (mobile)
+    sm: Small (tablet)
+    md: Medium (tablet)
+    lg: Large (desktop)
+    xl: Extra Large (desktop)
